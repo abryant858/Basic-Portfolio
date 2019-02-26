@@ -1,0 +1,150 @@
+body{
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/prism.png);
+}
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+.headcontainer {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.name {
+    width: 25%;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    background: #4aaaa5;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+li {
+    justify-content: flex-end;
+    display: inline-block;
+    padding: 15px;
+}
+a {
+    color: #777777;
+    text-decoration: none;    
+}
+a:hover {
+    color: #333333;
+}
+a:visited {
+    
+}
+.main{
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-color: #dddddd;
+    height: 800px;
+    
+}
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 15px;
+    padding-top: 25px;
+}
+.content {
+    min-height: calc(100vh - 250px);
+
+}
+img {
+    width: 15%;
+    height: auto;
+    float: left;
+    padding: 15px;
+}
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 15px;
+}
+footer {
+    text-align: center;
+    color: #fefefe;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 30px;
+    height: 50px;
+    margin-top: 50px;
+}
+button {
+    background: #4aaaa5;
+    color: #fefefe;
+    width: 100px;
+    line-height: 25px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.section {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 15px;
+    color: #777777;
+}
+.box {
+    
+    width: 300px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+      }
+h2 {
+    background-color: #4aaaa5;
+    line-height: 50px;
+    margin-top: 140px;
+}
+.bridge {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/bridge.jpg");
+    margin: 10px 0 0 10px;
+    text-align: center;
+
+}
+  
+.rocket {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/rocket.jpg");
+    margin: 10px 0 0 10px;
+    text-align: center;
+}
+.space {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/space.jpg");
+    margin: 10px 0 0 10px;
+    text-align: center;
+} 
+.tent {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/tent.jpg");
+    margin: 10px 0 0 10px;
+    text-align: center;
+}
+.water {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/water.jpg");
+    background-size: cover;
+    margin: 10px 0 0 10px;
+    text-align: center;
+}
